@@ -1,0 +1,11 @@
+L2 Knowledge in IBM Web Methods Application server in clustered/ high available production environment administration
+· L2 Knowledge in any webspehere server
+· Good knowledge in NETWORK basic ,basics Database Skills (either or all)- MS SQL 2005/2008 , IBM –DB2, Oracle 9.x/10.x , Informix , MySql , MS Access
+· Platform skills (either or all) - Windows, AIX, HP Unix Linux, Sun Solaris,
+· Scripting knowledge (either or all) : HTML, XML, JavaScript, PHP, VBA, Perl, Python, AWK, Shell Script ( Nice to have)
+· Preferable experience with Digital certificate management.
+· Experience in performance Tuning/ troubleshooting and third party apps integration.
+· Strong knowledge in Fine Tuning & Performance Management of Middleware Applications
+· Knowledge in Advanced Application Monitoring
+· Responsible for Application deployment, Maintenance & Stability.
+· Excellent in problem analyzing and solving.

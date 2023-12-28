@@ -1,0 +1,13 @@
+
+#!/bin/sh
+echo '$$' -- pid:  $$
+#specctioal symbols in single quotes lost theri significance.
+# special symbols in double quotes retain their signifince. 
+echo '$*' -- Argument String: $*
+echo '$#' -- Argument count: $#
+echo '$!' -- Status of last command execution: $?
+echo '$1' -- First Arguement: $1
+echo '$2' -- 2dn Argument: $2
+echo 
+ 
+

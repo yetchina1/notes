@@ -1,0 +1,5 @@
+>> what is terraform?
+it is a open source tool which enables to define infrastructre as code, increasing productvity and transperency.  it is an orchestration tool.
+
+>> what is orchestration tool?
+

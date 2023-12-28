@@ -1,0 +1,6 @@
+#!/bin/bash
+for var in tekkali srikakaulam vijayawada roorkee bangalore coimbatore
+do 
+echo vivek has stayed in $var place in his life
+done
+

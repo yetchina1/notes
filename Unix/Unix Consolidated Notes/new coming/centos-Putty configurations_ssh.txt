@@ -1,0 +1,42 @@
+openssh server was preinstalled in the centos server at the /etc/ssh location.  sshd_config file is the main configuration file for the client side connections. I have the sshd.config file with the below changes.
+
+PermitRootLogin without-password
+PubkeyAuthentication yes
+GSSAPIAuthentication no
+UseDNS no
+
+-------------------------------------------
+
+I have generated the keys using puttygen and saved the private key as centos_putty.ppk and public key as centos_putty. the public key will be added to authorized_keys in the user home directory, ie, /home/centos/.ssh/authorized_keys. 
+The key should be in one line and the start of the key should be appended with ssh-rsa as shown blow.
+
+---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key-20170421"
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxXoAIWpZg+DUlsXFtJOqprzQ+vMKCWr96dUq5ZrYz9+Nl41SPyAIzfeRLdjyFlGObbylB0Bp5OtBKuVb4Yul1mvOOts+8FtraxxPg7zH7IlRydCB06pgfkR3An2aSlA2oSAl8PUvybHAq/j+RlGYukgOxgQyAcnYlqzEMQ9UDlIuXtA4Qdh67OLeFObH7piwQeIk6x+/lbfB4QrsZuOSXR4xhDpHiX1Bh5nufRsyxBnUC+ByJxOp7yrfUlzvKlxQSBiR5kVLdEqwxupKtyHgAogRRGe306i2WIPIw17XAKQuvKfEzJodrQLadvLlOXfbuKlFgjw36EE1ROyvPyattw== osboxes@osboxes
+---- END SSH2 PUBLIC KEY ----
+
+--------------------------------------------------------------------------
+the private key centos_putty.ppk was configured in the putty at the ssh configuration item.
+
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+----------------------------------------------------------------
+Ref:  http://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter8.htmlhttp://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter8.html
+Chapter 8: Using public keys for SSH authentication
+
+8.1 Public key authentication - an introduction
+
+Public key authentication is an alternative means of identifying yourself to a login server, instead of typing a password. It is more secure and more flexible, but more difficult to set up.
+
+In conventional password authentication, you prove you are who you claim to be by proving that you know the correct password. The only way to prove you know the password is to tell the server what you think the password is. This means that if the server has been hacked, or spoofed (see section 2.2), an attacker can learn your password.
+
+Public key authentication solves this problem. You generate a key pair, consisting of a public key (which everybody is allowed to know) and a private key (which you keep secret and do not give to anybody). The private key is able to generate signatures. A signature created using your private key cannot be forged by anybody who does not have that key; but anybody who has your public key can verify that a particular signature is genuine.
+
+So you generate a key pair on your own computer, and you copy the public key to the server. Then, when the server asks you to prove who you are, PuTTY can generate a signature using your private key. The server can verify that signature (since it has your public key) and allow you to log in. Now if the server is hacked or spoofed, the attacker does not gain your private key or password; they only gain one signature. And signatures cannot be re-used, so they have gained nothing.
+
+There is a problem with this: if your private key is stored unprotected on your own computer, then anybody who gains access to that will be able to generate signatures as if they were you. So they will be able to log in to your server under your account. For this reason, your private key is usually encrypted when it is stored on your local machine, using a passphrase of your choice. In order to generate a signature, PuTTY must decrypt the key, so you have to type your passphrase.
+
+This can make public-key authentication less convenient than password authentication: every time you log in to the server, instead of typing a short password, you have to type a longer passphrase. One solution to this is to use an authentication agent, a separate program which holds decrypted private keys and generates signatures on request. PuTTY's authentication agent is called Pageant. When you begin a Windows session, you start Pageant and load your public key into it (typing your passphrase once). For the rest of your session, you can start PuTTY any number of times and Pageant will automatically generate signatures without you having to do anything. When you close your Windows session, Pageant shuts down, without ever having stored your decrypted private key on disk. Many people feel this is a good compromise between security and convenience. See chapter 9 for further details.
+
+There is more than one public-key algorithm available. The most common is RSA, but others exist, notably DSA (otherwise known as DSS), the USA's federal Digital Signature Standard. The key types supported by PuTTY are described in section 8.2.2.

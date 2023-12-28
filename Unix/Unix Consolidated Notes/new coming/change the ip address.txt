@@ -1,0 +1,5 @@
+1) sudo gedit /etc/network/interfaces
+
+change the ip address, default gateway etc.
+
+2) sudo service network-manager restart

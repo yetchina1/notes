@@ -1,0 +1,40 @@
+1) Tell us about yourself.?
+
+Well,Myself Vivekanand. I am basically from Andhra pradesh, a town called Srikakulam near Vizag. 
+	Well my studies have happened in Anhdra only. I am District 2nd in my Interemeditate and got Pratibha Schlorship for through out B.Tech. , and did my Enginering in KL College of Engineering, now its became a autonomous university and one of the top private universities in Andhra. I am part of Alumni of IIT roorkee. I did my M.Tech in Systems Engineering over there. 
+	I have got placed in TCS in campus placements. and I was working for UK based insurance client called Legal and General. and then I worked for 3M via Cognizant Technologies.
+
+2) What are the roles and responsbilities and explain about the project experience you have?
+
+>> I had 6 years of IT experience working with major consultancy firms like TCS and CTS. I worked for a UK based Insurance firm called Legal and     General and a US based Manufactring firm called 3M earlier it is known as Minnesota Mining and Manufacturing company. 
+
+>> My main area of experitise is WebSphere Infrastructure Management. I had the oppertunity to work with different versions of Websphere Application servers. v6,v6.1, v7 v8.5. 
+>> I worked in various environments right from Dev environment to Prod Environment, including FTE and Preprod. 
+>> I Had work experience in  both Linix and Windows Servers.
+>> Had experience right fromm commissioning to Decommissing. I am involved in Setting up the entire Environment, administering, configuring, troubleshooting, monitoring to Tuning.
+>> Had work experinece and coordinating experience with various teams like Application teams, Testing teams, Network teams, Backend teams like Messaging and DB teams. 
+>> Along with Websphere Application Server, IBM Http Server, I had experitse on Websphere MQ, IBM Tivoli Directory Server, Build and Release management with Ant, Central Repository like Subversion, Contineous Integration Tool like Cruise Control, and Network Packet analyzer tool Wireshark. 
+>> Day to day activities involves in making sure that Environment is availble. Handling the Incident and Change mmanagement tickets. Communicating with various teams. 
+>> Activities related to WAS are like Installation, Profiles creation, federation, Glogbal Security setup, IHS setup, Plugin setup, Appservers and Cluster creation, Virtuhal hosts creation, Application deployements, SSL setup, Digital Certificate management, Resource Creation like Datasources, J2C aliases, JMS resources, SiBus resources. 
+Troubleshooting activities like setting up the logs, traces, Garbage collecction logs etc, getting Thread dumps etc.
+
+>> Had first hand experince in diagnosing and troubleshooting various type of issues like 404,500 issues, Channel framework issues, Authentication and Autherization issues, SSL setup issues, Handshake issues, Single Sigon issues like LTPA token mismatch, Connecitity issues to Databases, ConnectionTimeout issues, Messaging Engine startup issues, Transaction Rollout issues, Classloader issues  like ClassNotFound Exception, ClassCastException, JNDI issues like NameNotFound Exception, HA Manager issues like Unable to join the view issues, Performance issues like Memory issues like OOM, CPU starvation issues etc.
+>> Tuning activities like jvm heap size optimization, Enabling Verbose GC, Connection pool tuning, variious timeout settings in Plugin, 
+>> Did various POCs like upgrade of LDAP, and Alternative ways of Building Environments and published a paper in TCS annual festival also.
+
+3) Why did you have break and what you did in that?
+I was working for Isha Foundation as a Volunteer. Isha Foundation is a not for profit and non-religious public organization involved in various Social and Environmental Projects like Project GreenHands, Isha Vidya, Action for Rural Rejuvenation. And the main objective of the Organization is to promote individual wellbeing and transformation through its yoga and Meditaiton programs. I was volunteering in that Organization. I was working in Telugu Departement involving Translation works. 
+
+I was also doing Derivatives Trading. 
+
+
+
+
+
+
+ 
+ 
+
+
+
+. 

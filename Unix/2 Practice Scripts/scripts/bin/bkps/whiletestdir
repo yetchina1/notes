@@ -1,0 +1,11 @@
+echo "plese enter a directory"
+read dir
+while [ ! -d "$dir" ]
+do
+echo "$dir is not a directory "
+echo "please enter a directory"
+read dir
+done
+echo "$dir is indeed a directory"
+
+

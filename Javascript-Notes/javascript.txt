@@ -1,0 +1,18 @@
+React.js  --> suggested by Quincy Larson of Freecodecamp.
+-----------------------------------------------------------
+Date: 17-06-2017
+
+--> http is  a protocol that defines the syntax (data format and encoding), semantics(meaning of the syntax), timing(speed and sequencing).
+??) encoding vs encryption vs hasing vs obfuscation ?
+??) what is charcter set?
+**) Explore  JSON.
+--> idempotent: submitting multiple GET requests to the same URL should cause exact same effect as just one GET request.
+performant, scalable, simple, modifiable, visible, portable, and reliable.
+State?—?or application state?—?is the data necessary for a server to fulfill a request.
+Stateless: This constraint says that all the state data needed to handle a client request must be contained within the request itself (URL, query parameters, HTTP body, or HTTP headers) and the server must send all the state data necessary back to the client through the response itself (HTTP headers, status code, and HTTP response body).
+
+??) what is the difference between parsing and rendering?
+reading or processing a document or code is called parsing. Rendering process for example in browser indicates that allocating the space for the element and its content and that content is displayed. 
+Ref:https://stackoverflow.com/questions/35966297/what-is-the-difference-between-dom-parsing-loading-rendering-ready
+
+

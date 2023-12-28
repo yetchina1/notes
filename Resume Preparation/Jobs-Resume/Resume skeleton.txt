@@ -1,0 +1,32 @@
+Summery of Skills and  Experience:
+
+Put around 5-7 points.
+--> 6 years of IT experience with Specialization in Websphere Infrastructure Management working with Tata Consultancy Services and Cognizant Technology Solutions. -- done
+--> Certified Websphere Application Server Adminstartor. --DONE.
+--> Setting up and Administration of WebSphere Applicaiton Server Environment: WAS installation, Profile creation, Federation & Patching(fixpacks and interim fixes), Cluster and App.Server Creation.
+--> IBM Http server Adminstration, Plugin setup, SSL setup, Url rewriting, troubleshooting.
+--> Configuring Loadbalancing, Workload Management, High Availbililty.
+--> Enterprise Applicaitons Deployment and Troubleshooting.
+--> Global Security, LDAP (IBM Tivoli Directory Server) Configuration, SSL setup. 
+--> JDBC Providers, Datasources, J2C Aliases Creation, Connection Pool tuning, Troubleshooting Connection Timeout issues.
+--> SiBus, Messaging Engines, Messaging Destinations, Datastores, JMS  Config objects like Connection Factories, Queues & Topics, Troubleshooting ME issues. 
+--> Websphere MQ Resource creatioin and integration with Websphere Application Server.
+--> Troubleshooting the Memory issues like OOM, CPU starvation isssues, performance issues.
+--> Adminstrtion tasks with wsadmin scripting. 
+-->  IBM Support Assitant Tools like Garbage Collection and Memory Visualizer, Thread Dump and Monitor Analyser,
+
+--> IP trace analysis with Wireshark & Analysing Http Headers and connecction issues.
+-->  Change Management, Release Management and Incident Management using Service Now.
+
+Academic Qualifications:
+
+Project #1
+  -- Roles and Responsibilities
+  -- Environment
+Project #2
+  -- Roles and Responsibilities
+  -- Environment
+
+Personal Details
+Name, Address, 
+

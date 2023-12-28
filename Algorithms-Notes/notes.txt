@@ -1,0 +1,22 @@
+jargon to explore:
+----------------
+--> indcutive proofs
+-->asymptotic behaviour
+--> amortized analysis. accounting method, potential method
+--> randomized algorithms
+--> running times of the algorithms.
+--> synthesizing and analyizing
+--> Dynamic programming paradigm
+--> divide and conqure paradigm.
+--> greedy algorithms
+--> algorithms for sorting
+--> dynamic sets
+--> applied algorithmic settings
+--> computational geometry
+--> securtity and cryptography
+--> parallel and distributed computing
+--> graph algorithms
+--> Discrete Mathemetics - probability
+--> 
+-----------------------------------------------------------
+

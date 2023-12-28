@@ -1,0 +1,22 @@
+
+1) copy files using the pscp of the putty:
+-----------------------------------------
+
+pscp -i "path  Public IPs: 13.235.19.171      Private IPs: 172.31.23.247 to private key of the server in ppk format" "file path in the local" ec2-user@publicip:/home/ec2-user/
+
+pscp -i "D:\DevOps\AWS\AWS_Assets\first_ec2_ami_linux.ppk" "C:\Users\vivek\Desktop\today activity.txt" ec2-user@13.235.19.171:/home/ec2_user/
+
+
+2) connect to the machine using ssh:
+-----------------------------------
+
+ssh -i "D:\DevOps\AWS\AWS_Assets\first_ec2_ami_linux.pem" ec2-user@13.235.19.171
+
+
+3) To check the volumes 
+
+fdisk -l | grep Disk
+
+df -H
+
+4) 

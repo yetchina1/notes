@@ -1,0 +1,37 @@
+Stop & Start Websphere Application Server instances
+
+Health check Status of Websphere Application Server Instances
+
+Raising PMR incident with vendor
+
+Websphere Binaries downloading
+
+Application deployments on Websphere Application server
+
+Configuration changes on websphere Application Server
+
+House keeping task for websphere Application Server environments
+
+Applying fixpack / Patches / feature Packs / interfixes on the websphere Environments
+
+Performance Monitoring of (Application URL , Application Servers using the IBM / thirdparty tools
+
+SSL Certificate management in WAS environments
+
+Investigation & Troubleshotting problems like Out of Memory , Slowness in Application
+
+Log monitoring on Websphere environment
+
+Installation of websphere software components
+
+Websphere Service description Documentation
+
+Websphere backup & recovery Management
+
+Closing security vulnerabilities.
+
+WebSphere build work to the client / vendor
+
+Application Server version upgrades
+
+Automation task

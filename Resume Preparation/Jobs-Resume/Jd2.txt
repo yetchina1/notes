@@ -1,0 +1,17 @@
+1. Installing Middle-ware product like WebSphere Application Server , WebSphere MQ, Apache Tomcat, Apache Web-server, IHS, Jboss.
+2. Upgrading Middle-ware and Web-server products (Websphere, MQ, etc...)
+3. Doing Configuration changes in Middle-ware and Web-server level.
+4. Deploying J2EE application & back-end resources.
+5. Experience in Clustering & Session replication/persistence.
+6. Troubleshooting Middle-ware and web-server issue.
+7. Analyzing Appserver & webserver logs, thread dumps, verbose gc logs etc.
+9. Raising PMR with IBM Support and coordinating with them (If required)
+10. Graduate / Post Graduate or any other equivalent degree. 
+11. 3+ Years hands on technical experience on Middleware Administration.
+13. Working knowledge of WebSphere MQ.
+14. Working knowledge of supported operating systems (e.g., AIX, Solaris, Linux on Intel, Windows) 
+15. Good understanding of messaging concepts as they relate to IBM WebSphere MQ 
+16. Basic knowledge of operating WebSphere MQ Explorer
+17. Basic understanding of JMS concepts
+18. Basic knowledge of networking concepts (e.g., TCP/IP, SSL, etc.)
+19. Ready to work in rotational 24/7 shifts.

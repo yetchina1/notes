@@ -1,0 +1,7 @@
+Introduction to Computer Science and Programming in Python
+
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/
+
+A Gentle Introduction to Programming Using Python
+
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/index.htm

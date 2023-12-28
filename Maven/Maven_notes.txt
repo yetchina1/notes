@@ -1,0 +1,9 @@
+Maven - notes
+------------------
+M2_HOME=E:/Apache/mvn35
+path=%path%;%M2_HOME%/bin
+%userprofile%/.m2 (~/.m2) --> contains the maven repositories.
+
+GAV coordinates or Maven coordinates: Group id (overall organization or top-levle package), Artifact ID (project/lib name), version
+
+searh.maven.org  --> maven central. this can be used to search repositories.

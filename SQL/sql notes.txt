@@ -1,0 +1,68 @@
+
+
+Instance ID: SQLExpress
+***************
+
+sql notes;
+
+>> sql server 2008 R2 is being used. 
+
+>> microsoft sql server management studio is being used to explore the databases. pubs database has been downloaded and loaded. it has tables like authors, 
+publishers, titles. 
+
+>> collection of realted data is known as database. DMBS is the software which creates, maintains and deletes the databases etc. Table has the realted data. 
+schema is set of rules, which the table has to be followed. it determines how the data to be stored, related etc. 
+>> columns, rows, datatypes
+
+>> USE, SELECT, FROM.  
+USE db_name
+SELECT col_name1, col_name2 etc
+FROM table_name
+
+>> ORDER BY col_name --> to sort alphabetically in ascending order by column_name.
+
+>> WHERE --> to specify a condition. single quotes used to deleanate a string. '=' is used. It is used to retrieve only those records which meets certain criterion.
+WHERE col_name = 'val';
+WHERE clause has comes with various operators. '=' is one such operator. =, != or <>, <,<=,>, >=, BETWEEN, AND, OR, NOT, IS NULL, LIKE, IN
+
+>> wild cards. * matches everything of column names
+% matches any number of characters occuring any number of times.
+_ represents single character. 
+
+>> AND, OR can be used in WHERE clause where we want to specify more than one condition.
+
+>>LIKE operaror. this operator has been used in the WHERE clause. this LIKE operator can be used along with the AND OR NOT etc operators too.
+
+>> IN operator. 
+WHERE col_name IN (val1,val2,val3,etc)
+
+CHAR vs VARCHAR: You can always use CHAR when you have fixed length data type such as zip code, state abbrevation or a phone number. CHAR wil always allocates the maximum length of characters irrespective of wether they are used or not. VARCHAR will allocates just enough memory to hold the datatype.
+
+NULL value: This indicates that no data has been entered. 
+
+*****************************************************************
+>> Aliases:
+it is just another name for the column. it is used to enhance the readability. usecases are when creating a column out of a calculation, or when querying multiple tables. 
+
+col_name AS "alias name"
+
+>> Calculating data:
+column can be created on the fly by making a calculation and using alias "AS".
+>> Count Function: to get the total number of records, use this query. SELECT COUNT (*), FROM db_name;
+
+>> Distinct: to pull out unique records. 
+>> Aggregate functions. COUNT, AVG, SUM, MIN, MAX
+
+>> Converting Datatypes: the data that was there in the column is not suitable for the calculation that you intend to perform, we use datatype conversion. 
+CAST and CONVERT are two functions availble.
+
+>> GROUP BY operates based on the aggragate functions like count, avg,min,max etc. The column name specified in the SELECT statment must appear in the GROUP BY clause.
+
+>> HAVING Clause: this HAVING clause is being used with the GROUP BY clause as a filter. 
+
+
+
+
+
+
+

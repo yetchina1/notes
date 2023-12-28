@@ -1,0 +1,16 @@
+modified the VMware's virtual host configuration file like this ****.vmx and add new line :
+
+Raw
+ethernet0.present = "TRUE"
+ethernet0.connectionType = "nat"
+ethernet0.wakeOnPcktRcv = "FALSE"
+ethernet0.addressType = "generated"
+add a new line: ethernet0.virtualDev = "e1000"
+
+Raw
+ethernet0.present = "TRUE"
+ethernet0.connectionType = "nat"
+ethernet0.wakeOnPcktRcv = "FALSE"
+ethernet0.addressType = "generated"
+ethernet0.virtualDev = "e1000"
+Do it after shutdown the vpc.

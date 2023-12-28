@@ -1,0 +1,47 @@
+Web Servers :
+1. Installation and Configuration of Web Servers
+2. Redirection and Redirect Rules configuration.
+3. Proxy Rules and configuration.
+4. Multiple Http Instance configurations.
+5. SSL certification Installation and configuration using Keytool , OpenSSL etc
+6. Virtual Host Configuration ( Name Based and IP Based )
+7. Migration of sites from Older version to Upgrades Version of Web Servers.
+8. UPgradation of Web Servers to Newer version
+9. Patches and Fix packs implementation.
+10. Trouble Shooting
+11. Performance tuning and fine tuned Parameter
+12. Traces / Log files management.
+
+Application Servers :
+1. Web Architecture, External Load Balancer Architecture, Smart Proxy Architecture General configuration with HTTP
+2. Application Server Architecture
+3. What is the difference between different versions of Application Servers.
+4. What are the different types of clusters and advantages Clustering : High Availability and Workload Management
+5. Load Balancing , Sticky Sessions, Clustered Session Replication , Clustering , Single Sign-On , Clustering with HA-JNDI , Clustering with Stateless Session Beans ,Clustering with Stateful Session
+6. Knowledge of any Single Sing On products ( CA Siteminder , OAM )
+7. Networking Concepts DNS, Firewall, HW Loadbalancer, Keep Alive, Sticky sessions
+8. Monitoring using Tivoli monitoring , Netcool , BMC Patrol , Willy etc.
+9. Expertise on Application Server Configurations : Data Source , SIB , JMS , LDAP , Node , Log Management etc.
+10. Profile Types , Domain types
+11. Trouble shooting : Error type ( 404, 500 etc... ) Garbage Collection , Thread Dump and Heap Dump , Out of Memory Issue , Thread Analyzer and Heap Dump analyzer
+12. Apply fixpack and patch management.
+13. Security Implementation.
+14. Hands on experience on SSL certificate implementation and management (gsk7cmd , keytool , openssl , certutil etc )
+15. Migration to newer version of Application Server
+16. Upgradation to newer version of Application Server
+17. Performance tuning ( JVM Tuning , Web Container Tuning , Connection Pool Tuning , Tuning at OS level , Web Server Tuning )
+18. Web Services configuration and Integration.
+19. Integration with LDAP / JMS and WebSphere MQ , Web Servers .
+20. Strong knowledge on integration with Proxy , Plugin modules with SSL .
+21. Knowledge of messaging serves like MQ , Tibco , Tuxedo etc.
+22. Strong Unix knowledge
+23. Strong Shell Script Knowledge
+24. Hands on experience on Jython , Python to perform the administration of Application Server.
+25. Incident Management Process, Problem Management Process, Change Management Process
+26. Ability to Lead and coordinate Disaster recovery
+27. Clear understanding of GC(Generation of young,tenured and Perm), JDBC connection pooling, thread pools, JVM Heap.
+28. Analysis of GC ,native logs, java core , coredump
+29. Automation and Defect Prevention Plan.
+30. Problem Management and RCA.
+31. Mentor and leadership skills with good communication.
+32. Handle technical escalations and coordination with other teams ( Application team , Platform team , Database team , Network team etc ).

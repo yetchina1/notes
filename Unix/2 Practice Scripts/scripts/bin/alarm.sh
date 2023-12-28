@@ -1,0 +1,1 @@
+count=3; while [ $count -gt 0 ]; do echo -e '\a'; count=`expr $count - 1`; sleep 5; done

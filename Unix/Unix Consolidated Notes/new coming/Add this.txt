@@ -1,0 +1,13 @@
+Add this to the consolidated notes and then convert to pdf.
+
+CP:
+----------
+>> You can copy the content of a folder /source to another existing folder /dest with the command.  The -a option is an improved recursive option, that preserve all file attributes, and also preserve symlinks. The . at end of the source path is a specific cp syntax that allow to copy all files and folders, included hidden ones.
+cp -a /source/. /dest/
+
+vivek@ubuntu> cd folder1
+vivel@folder1> cp ./* folder2
+
+>> If your intent is to copy the found files into /home/shantanu/tosend you have the order of the arguments to cp reversed:
+
+find /home/shantanu/processed/ -name '*2011*.xml' -exec cp {} /home/shantanu/tosend  \;

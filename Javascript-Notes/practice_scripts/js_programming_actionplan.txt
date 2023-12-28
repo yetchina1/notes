@@ -1,0 +1,8 @@
+Plan of Action for programming learning
+---------------------------------------------
+
+mit's lecture series
+good parts
+eloquent js
+patterns in js
+
